@@ -1,0 +1,69 @@
+.task {
+    display: flex;
+    background: var(--gray-500);
+    color: var(--gray-100);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    max-width: 780px;
+    
+}
+
+.task {
+    display: flex;
+    background: var(--gray-500);
+    color: var(--gray-100);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    
+}
+
+.task p {
+    display: flex;
+    flex: 1;
+    font-size: 0.875rem;
+}
+
+.circleIcon {
+    cursor: pointer;
+    color: var(--blue-dark);
+    transition: background-color 0.1s;
+}
+
+.circleIcon:hover {
+    color: var(--blue);
+}
+
+.checkCircleIcon {
+    cursor: pointer;
+    color: var(--purple-dark);
+    background-color: var(--gray-100);
+    border-radius: 20px;
+    transition: background-color 0.1s;
+}
+
+.checkCircleIcon:hover {
+    color: var(--purple);
+    background-color: var(--gray-100);
+    border-radius: 20px;
+}
+
+.taskCompleted {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+.trash {
+    color: var(--gray-300);
+    transition: background-color 0.1s;
+}
+
+.trash:hover {
+    cursor: pointer;
+    color: var(--danger)
+}
